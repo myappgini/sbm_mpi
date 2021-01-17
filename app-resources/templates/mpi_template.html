@@ -1,0 +1,46 @@
+    <!-- mpi -->
+
+    <form id="mpi-form">
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h3 class="panel-title">
+                    <i class="glyphicon glyphicon-picture"></i>
+                    Membership profile image
+                </h3>
+            </div>
+            <div class="panel-body">
+                <div class="col-md-12" id="mpimage">
+                </div>
+                <br>
+                <div class="form-group col-md-12">
+                    <label for="mpi">Select new image:</label>
+                    <input name="mpi" id="mpi" type="file">
+                    <p class="help-block">Select and update an image.</p>
+                </div>
+                <div class="checkbox col-md-12">
+                    <label>
+                        <input name="remove-default" value="0" type="hidden">
+                        <input id="remove-default" name="remove-default" value="1" type="checkbox"> Remove defalt "Signed in as ..." from nav bar
+                    </label>
+                </div>
+            </div>
+        </div>
+        </div>
+    </form>
+    <script>
+        $j(function () {
+            getMpi({
+                cmd: 'u'
+            }, false);
+
+            $j("input#mpi, #remove-default").on('change',function () {
+                $j("#mpi-form").submit();
+            });
+
+            $j("#mpi-form").submit(function (e) {
+                e.preventDefault();
+                var formData = new FormData(this);
+                getMpi(formData);
+            });
+        });
+    </script>
