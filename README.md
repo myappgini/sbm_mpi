@@ -17,6 +17,7 @@ Only install, go to admin tools area and select mpi from plugins menu.
 
 got to plugin folder.
 dowload mpi ZIP pack into plugins folder in your project, and unzip it into mpi folder.
+
 ![MPI](https://raw.githubusercontent.com/myappgini/sbm_mpi/main/screenshoots/Screenshot_20210117_184629.png)
 
 
@@ -34,3 +35,8 @@ Select mpi from plugin menu in admin area.
 Follow the stepp.
 
 Then next to install needed files and enjoy.
+
+![MPI](https://raw.githubusercontent.com/myappgini/sbm_mpi/main/screenshoots/Screenshot_20210117_180151.png)
+![MPI](https://raw.githubusercontent.com/myappgini/sbm_mpi/main/screenshoots/Screenshot_20210117_180217.png)
+![MPI](https://raw.githubusercontent.com/myappgini/sbm_mpi/main/screenshoots/Screenshot_20210117_180238.png)
+![MPI](https://raw.githubusercontent.com/myappgini/sbm_mpi/main/screenshoots/Screenshot_20210117_180306.png)
